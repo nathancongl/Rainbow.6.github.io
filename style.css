@@ -57,3 +57,21 @@ iframe {
   border: none;
   border-radius: 10px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+#title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  letter-spacing: 2px;
+  animation: fadeInSlide 1s ease-out;
+}
+
+@keyframes fadeInSlide {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
