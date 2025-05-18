@@ -75,4 +75,17 @@ iframe {
   100% { opacity: 1; transform: translateY(0); }
 }
 
+.top-left-title {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1000;
+}
+
+.top-left-title h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
 
