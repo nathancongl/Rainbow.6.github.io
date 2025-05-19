@@ -9,12 +9,8 @@ body {
 
 .hero {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 1rem 2rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1001;
-  border-bottom-right-radius: 10px;
+  padding: 4rem;
+  text-align: center;
 }
 
 h1 {
@@ -27,10 +23,26 @@ h1 {
   margin: 4rem auto;
   padding: 2rem;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1200px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
+
+.twitch-button {
+    background-color: #9146FF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .twitch-button:hover {
+    background-color: #772ce8;
+  }
+
 
 .panel h2 {
   text-align: center;
@@ -40,25 +52,9 @@ h1 {
 
 iframe {
   width: 100%;
-  height: 500px;
+  height: 700px;
   border: none;
   border-radius: 10px;
-}
-
-.youtube-container {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  margin: auto;
-  padding-top: 56.25%;
-}
-
-.youtube-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .news-streams {
@@ -86,33 +82,4 @@ iframe {
 
 .icon-buttons a img:hover {
   opacity: 1;
-}
-
-.search-box {
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 300px;
-  z-index: 1001;
-}
-
-.search-box input {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 10px;
-  border: none;
-}
-
-.suggestions-box {
-  background: white;
-  color: black;
-  border-radius: 5px;
-  max-height: 200px;
-  overflow-y: auto;
-  display: none;
-  position: absolute;
-  width: 100%;
-  z-index: 1001;
 }
